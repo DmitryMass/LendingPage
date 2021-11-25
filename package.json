@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/DmitryMass/LendingPage/issues"
   },
-  "homepage": "https://github.com/DmitryMass/LendingPage#readme"
+  "homepage": "https://github.com/DmitryMass/LendingPage#readme",
+  "keywords": [],
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
 }
