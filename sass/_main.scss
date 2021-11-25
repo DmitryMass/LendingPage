@@ -1,0 +1,16 @@
+.section {
+  &-main {
+    margin-top: 200px;
+  }
+  &-h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: $gold;
+    margin-bottom: 100px;
+  }
+  &-title {
+    text-align: center;
+  }
+}
