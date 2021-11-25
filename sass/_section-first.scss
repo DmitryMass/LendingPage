@@ -1,0 +1,46 @@
+.section1 {
+  &-wrap {
+    background-color: $dark;
+    min-height: 1226px;
+    padding-top: 120px;
+  }
+  &-logo {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &-info {
+    max-width: 193px;
+  }
+  &-txt {
+    color: $white;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+  &-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  &-home {
+    margin-top: 120px;
+  }
+  &-h2 {
+    color: $gold;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    font-family: "Playfair Display", serif;
+  }
+  &-img_1,
+  &-img_2,
+  &-img_3,
+  &-img_4 {
+    min-height: 535px;
+    max-width: 320px;
+  }
+}

@@ -12,5 +12,27 @@
   }
   &-title {
     text-align: center;
+    margin-bottom: 200px;
+  }
+  &-adress,
+  &-number {
+    font-size: 18px;
+    line-height: 21px;
+    font-family: "Raleway", sans-serif;
+    color: $white;
+    margin-left: 18px;
+    &:hover {
+      color: rgb(223, 155, 124);
+    }
+  }
+  &-contact,
+  &-phone {
+    display: flex;
+    align-items: center;
+  }
+  &-subtitle {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
   }
 }
