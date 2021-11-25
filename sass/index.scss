@@ -12,6 +12,13 @@ body {
 body {
   font-family: "Lato", sans-serif;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
+li {
+  list-style: none;
+}
 
 /* mixins */
 @mixin container($width) {
@@ -22,4 +29,15 @@ body {
 }
 .container {
   @include container(1100px);
+}
+
+/*flex-containers*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-nav {
+  display: flex;
+  flex-wrap: wrap;
 }

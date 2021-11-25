@@ -1,4 +1,39 @@
+/*/ COlors */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+.main-header {
+  background-image: url(../../assets/images/header-bgc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 840px;
+  padding-top: 30px;
+}
+
+.main-href {
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  padding: 7px 20px;
+}
+
+.main-href:hover {
+  background-color: gray;
+  color: honeydew;
+}
+
+.main-logo_href {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.main-logo_vop {
+  position: relative;
+  z-index: -1;
+}
+
 html,
 body {
   height: 100%;
@@ -9,10 +44,31 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
 /* mixins */
 .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: content-box;
+}
+
+/*flex-containers*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-nav {
+  display: flex;
+  flex-wrap: wrap;
 }
