@@ -197,6 +197,7 @@ li {
   line-height: 64px;
   color: #d4c17f;
   margin-bottom: 100px;
+  pointer-events: none;
 }
 
 .section-title {
@@ -231,6 +232,7 @@ li {
   background-color: #242b33;
   min-height: 1226px;
   padding-top: 120px;
+  margin-top: -1px;
 }
 
 .section1-logo {
@@ -272,8 +274,50 @@ li {
 }
 
 .section1-img_1, .section1-img_2, .section1-img_3, .section1-img_4 {
-  min-height: 535px;
-  max-width: 320px;
+  width: 535px;
+  height: 320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.section1-img_1 {
+  background-image: url(../../assets/images/img-1.png);
+  margin-bottom: 30px;
+}
+
+.section1-img_2 {
+  background-image: url(../../assets/images/img-2.png);
+  margin-bottom: 30px;
+}
+
+.section1-img_3 {
+  background-image: url(../../assets/images/img-3.png);
+}
+
+.section1-img_4 {
+  background-image: url(../../assets/images/img-4.png);
+}
+
+.section1-apartments_title {
+  margin-bottom: 100px;
+}
+
+.section1-apartments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section1-subname {
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
 }
 
 html,
