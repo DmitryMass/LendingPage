@@ -7,9 +7,14 @@ html(lang="en")
         title Lending
         link(rel="stylesheet", href="./dist/css/index.css")
     body 
-        .main-wrap 
-            include ./pug/header
-            include ./pug/main 
-        include ./pug/sectionfirst 
-        include ./pug/sectionsecond 
+        .page
+            .main-wrap 
+                include ./pug/header
+                include ./pug/main 
+            include ./pug/sectionfirst 
+            include ./pug/sectionsecond
+            .section-1 
+                include ./pug/sectionthird 
+                include ./pug/sectionfour 
+                include ./pug/sectionfive   
         include ./pug/footer 

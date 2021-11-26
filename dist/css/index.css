@@ -425,6 +425,73 @@ li {
   margin-right: 30px;
 }
 
+.section3-main {
+  background-color: #242b33;
+  min-height: 100%;
+  padding-bottom: 180px;
+}
+
+.section3-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4-main {
+  background-color: #242b33;
+  margin-top: -1px;
+}
+
+.section4-map {
+  width: 1110px;
+  height: 400px;
+}
+
+.section4-h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Playfair Display", serif;
+  color: #d4c17f;
+  margin-bottom: 100px;
+}
+
+.section4-location {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 180px;
+}
+
+.section5-baseline {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.section5-reg {
+  padding-bottom: 180px;
+}
+
+.section5-h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: #d4c17f;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 50px;
+}
+
+.input_1 {
+  margin-right: 0;
+}
+
+.s5-p {
+  margin: 0 0 0 0;
+}
+
+.s5-btn {
+  margin-top: 0;
+}
+
 html,
 body {
   height: 100%;
@@ -442,6 +509,14 @@ a {
 
 li {
   list-style: none;
+}
+
+.page {
+  min-height: calc(100% - 272px);
+}
+
+.section-1 {
+  background-color: #242b33;
 }
 
 /* mixins */

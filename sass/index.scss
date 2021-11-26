@@ -5,6 +5,9 @@
 @import "./main";
 @import "./section-first";
 @import "./sectionsecond";
+@import "./sectionthird";
+@import "./sectionfour";
+@import "./sectiofive";
 
 html,
 body {
@@ -22,7 +25,12 @@ a {
 li {
   list-style: none;
 }
-
+.page {
+  min-height: calc(100% - 272px);
+}
+.section-1 {
+  background-color: #242b33;
+}
 /* mixins */
 @mixin container($width) {
   max-width: $width;
