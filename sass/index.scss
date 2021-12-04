@@ -8,6 +8,7 @@
 @import "./sectionthird";
 @import "./sectionfour";
 @import "./sectiofive";
+@import "./footer";
 
 html,
 body {
@@ -50,5 +51,10 @@ li {
 }
 .flex-nav {
   display: flex;
+  flex-wrap: wrap;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
