@@ -42,6 +42,12 @@ li {
 .container {
   @include container(1100px);
 }
+.container-header {
+  @include container(1100px);
+}
+.container-bootstrap {
+  @include container(1100px);
+}
 
 /*flex-containers*/
 .flex-container {

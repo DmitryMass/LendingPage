@@ -29,3 +29,30 @@
     z-index: -1;
   }
 }
+///////// BOOTSTRAP ////////
+.container-bootstrap {
+  display: none;
+}
+.bg-dark {
+  --bs-bg-opacity: 0;
+}
+.navbar > .container-fluid {
+  justify-content: center;
+}
+.navbar-toggler {
+  border: none;
+  &:focus {
+    box-shadow: none;
+  }
+}
+////// MEDIA //////////
+
+@media screen and (max-width: 768px) {
+  .main-logo,
+  .main-nav {
+    display: none;
+  }
+  .container-bootstrap {
+    display: block;
+  }
+}
