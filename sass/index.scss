@@ -66,3 +66,85 @@ li {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 1200px) {
+  .section1-apartments {
+    justify-content: center;
+  }
+  .section1-h2 {
+    text-align: center;
+  }
+  .s2-flex {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .flex-container {
+    display: block;
+    text-align: center;
+  }
+  .flex-nav {
+    display: block;
+  }
+  .main-nav {
+    margin-top: 30px;
+  }
+  .section-main {
+    margin-top: 100px;
+  }
+  .section1-flex {
+    justify-content: center;
+  }
+  .section1-info {
+    width: 100%;
+  }
+  .section1-apartments_title {
+    margin-bottom: 30px;
+  }
+  .section-h1 {
+    font-size: 36px;
+  }
+  .section-title {
+    margin-bottom: 100px;
+  }
+  .section-contact {
+    margin-bottom: 10px;
+  }
+  .section2-main {
+    padding-top: 90px;
+  }
+  .section2-registration {
+    justify-content: center;
+  }
+  .section2-input_1 {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .section2-p2 {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .section2-btn {
+    margin-top: 20px;
+  }
+  .section3-main {
+    padding-bottom: 90px;
+    padding-top: 30px;
+  }
+  .section4-h2 {
+    margin-bottom: 30px;
+  }
+  .section5-title {
+    text-align: center;
+  }
+  .section4-location {
+    margin-bottom: 30px;
+  }
+  .section5-reg {
+    padding-bottom: 90px;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+  }
+}
