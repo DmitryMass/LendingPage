@@ -709,6 +709,15 @@ li {
   .footer-li:last-child {
     margin: 30px 0;
   }
+  .section1-about {
+    margin-bottom: 40px;
+  }
+  .section1-logo {
+    margin-bottom: 20px;
+  }
+  .section1-home {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: 568px) {
