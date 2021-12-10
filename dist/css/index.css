@@ -706,6 +706,9 @@ li {
   .footer-li_object {
     justify-content: space-between;
   }
+  .footer-li:last-child {
+    margin: 30px 0;
+  }
 }
 
 @media screen and (max-width: 568px) {
