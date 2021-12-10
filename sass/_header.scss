@@ -30,29 +30,12 @@
   }
 }
 ///////// BOOTSTRAP ////////
-.container-bootstrap {
-  display: none;
-}
-.bg-dark {
-  --bs-bg-opacity: 0;
-}
-.navbar > .container-fluid {
-  justify-content: center;
-}
-.navbar-toggler {
-  border: none;
-  &:focus {
-    box-shadow: none;
-  }
-}
 ////// MEDIA //////////
 
-@media screen and (max-width: 768px) {
-  .main-logo,
-  .main-nav {
-    display: none;
-  }
-  .container-bootstrap {
-    display: block;
+@media screen and (min-width: 768px) {
+  .flex-container {
+    justify-content: center;
   }
 }
+
+//// Burger ////
