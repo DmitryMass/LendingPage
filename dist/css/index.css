@@ -775,6 +775,9 @@ li {
     justify-content: center;
     margin-top: 80px;
   }
+  .list-menu:focus > .main-ul_list {
+    display: block;
+  }
   .main-nav {
     display: none;
   }
