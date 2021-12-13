@@ -779,6 +779,11 @@ li {
     justify-content: center;
     margin-top: 80px;
   }
+  .btn-menu {
+    margin: 0;
+    background: none;
+    border: none;
+  }
   .main-nav {
     display: none;
   }
