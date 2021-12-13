@@ -38,6 +38,9 @@
   &:hover > .main-ul_list {
     display: block;
   }
+  &:focus > .main-ul_list {
+    display: block;
+  }
 }
 .main-ul_list {
   display: none;
