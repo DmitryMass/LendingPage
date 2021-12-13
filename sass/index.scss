@@ -183,3 +183,24 @@ li {
     margin-top: 20px;
   }
 }
+
+// ANIMATION KEYFRAMES //
+
+.main-logo_vop {
+  animation: houseVop linear infinite alternate;
+  animation-duration: 0.7s;
+  animation-delay: 1s;
+  position: relative;
+}
+
+@keyframes houseVop {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 5px;
+  }
+  100% {
+    bottom: 10px;
+  }
+}
