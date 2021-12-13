@@ -32,4 +32,44 @@
 ///////// BOOTSTRAP ////////
 ////// MEDIA //////////
 
-//// Burger ////
+//// Выпадающий List ////
+.list-menu {
+  position: relative;
+  &:hover > .main-ul_list {
+    display: block;
+  }
+}
+.main-ul_list {
+  display: none;
+  position: absolute;
+  top: 100%;
+  border-radius: 8px;
+  background-color: rgb(100, 99, 99);
+
+  & > li {
+    margin: 20px;
+    min-width: 150px;
+    cursor: pointer;
+  }
+
+  & > li > a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    &:hover {
+      color: wheat;
+    }
+  }
+}
+.list-menu {
+  display: none;
+}
+.main-btn_menu {
+  font-size: 14px;
+  line-height: 16px;
+  display: inline-block;
+  transition: all 0.3s ease;
+  border-radius: 3px;
+  padding: 7px 20px;
+  color: white;
+}

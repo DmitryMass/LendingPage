@@ -169,6 +169,15 @@ li {
   .section1-home {
     margin-top: 60px;
   }
+  //MENU LIST//
+  .list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-nav {
+    display: none;
+  }
 }
 @media screen and (max-width: 568px) {
   .section2-input_1 {
