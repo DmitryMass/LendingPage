@@ -214,3 +214,23 @@ li {
     bottom: 10px;
   }
 }
+.section-mouse {
+  position: relative;
+  padding: 25px;
+  &:hover {
+    animation: mouse linear infinite alternate;
+    animation-duration: 0.7s;
+  }
+}
+
+@keyframes mouse {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 20px;
+  }
+}

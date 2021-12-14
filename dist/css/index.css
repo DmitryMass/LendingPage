@@ -175,8 +175,8 @@ li {
   line-height: 16px;
   display: inline-block;
   transition: all 0.3s ease;
-  border-radius: 3px;
   padding: 7px 20px;
+  border-radius: 8px;
 }
 
 .main-href:hover {
@@ -305,6 +305,7 @@ li {
 
 .section-adress:hover, .section-number:hover {
   color: #df9b7c;
+  text-shadow: 1px 1px 15px wheat;
 }
 
 .section-contact, .section-phone {
@@ -334,6 +335,12 @@ li {
 
 .section1-info {
   max-width: 193px;
+  text-shadow: 1px 1px 5px wheat;
+}
+
+.section1-info:hover {
+  cursor: pointer;
+  text-shadow: 1px 1px 15px wheat;
 }
 
 .section1-txt {
@@ -834,5 +841,27 @@ li {
   }
   100% {
     bottom: 10px;
+  }
+}
+
+.section-mouse {
+  position: relative;
+  padding: 25px;
+}
+
+.section-mouse:hover {
+  animation: mouse linear infinite alternate;
+  animation-duration: 0.7s;
+}
+
+@keyframes mouse {
+  0% {
+    bottom: 0px;
+  }
+  50% {
+    bottom: 10px;
+  }
+  100% {
+    bottom: 20px;
   }
 }

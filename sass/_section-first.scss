@@ -13,6 +13,11 @@
   }
   &-info {
     max-width: 193px;
+    text-shadow: 1px 1px 5px wheat;
+    &:hover {
+      cursor: pointer;
+      text-shadow: 1px 1px 15px wheat;
+    }
   }
   &-txt {
     color: $white;
