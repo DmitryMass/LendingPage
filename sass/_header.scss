@@ -41,7 +41,14 @@
   &:focus > .main-ul_list {
     display: block;
   }
+  &:hover .list-object {
+    transform: rotate(-180deg);
+  }
+  &:focus .list-object {
+    transform: rotate(-180deg);
+  }
 }
+
 .main-ul_list {
   display: none;
   position: absolute;
@@ -67,11 +74,12 @@
 .list-menu {
   display: none;
 }
+
 .reset-btn {
   border: none;
   /* min-width: 250px; */
   /* min-height: 50px; */
-  margin-top: 35px;
+  margin-top: 0px;
   background-color: #d4c17f;
   color: #ffffff;
   font-weight: bold;
@@ -80,8 +88,17 @@
   font-family: "Raleway", sans-serif;
   border-radius: 8px;
   cursor: pointer;
-}
+  margin: 0;
 
+  border: none;
+  &:hover {
+    background-color: gray;
+    color: honeydew;
+  }
+}
+.list-object {
+  margin-right: 7px;
+}
 // .main-btn_menu {
 //   font-size: 14px;
 //   line-height: 16px;
